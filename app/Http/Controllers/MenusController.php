@@ -153,7 +153,7 @@ class MenusController extends Controller
         try {
             $menu = Menu::find($menu_id);
 
-            $menu->delete();
+                $menu->delete();
 
             if ($menu->trashed()) {
                 return response()->json(['status' => true], 200);

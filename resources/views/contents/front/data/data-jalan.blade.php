@@ -141,7 +141,7 @@
                                 'data-id': data,
                                 title: 'Detail',
                                 'data-placement': 'top',
-                                'data-toggle': 'tooltip',
+                                'data-toggle': 'tooltip',   
                                 href: '{{ url('detail-jalan') }}/' + data,
                                 role: 'button',
                                 html: '<i class="bx bx-eye"></i> Detail'
